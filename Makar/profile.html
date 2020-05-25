@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета</title>
+</head>
+<style>
+    body{
+        padding-left: 20%;
+        padding-right: 20%;
+        color: white;
+        background: url(fon.jpg);
+    }
+    h1 {
+        color: white;
+    }
+    header {
+        background: url(fon6.jpg);
+        color: white;
+        padding: 15px;
+        font-size: 1vw;
+        font-family: Candara;
+    }
+    nav{
+        padding: 30px;
+        color: darkred;
+        background: url(fon8.jpg);
+        font-size: 1vw;
+        font-family: Candara;
+    }
+    nav a{
+        background: url(fon6.jpg);
+        text-decoration: none;
+        color: darkred;
+        padding: 1vw;
+    }
+    nav a:hover{
+        
+        background: goldenrod;
+        color: darkred;
+        font-size: 1vw;
+    }
+    main {
+        background: url(fon2.png);
+        color: white;
+        padding: 20px;
+        font-size: 1vw;
+        font-family: Candara;
+    }
+</style>
+<body>
+    <header>
+        <h1>Анкета посетителя</h1>
+    </header>
+    <nav>
+        <a href="index.html">Главная страница</a>
+    </nav>
+    <main>
+    <h2>Имя</h2>
+    <input type="text" placeholder="Имя">
+    <h2>Фамилия</h2>
+    <input type="text" placeholder="Фамилия">
+    <h2>Дата рождения</h2>
+    <input type="date">
+    <h2>Пол</h2>
+    <input type="radio" name="Пол">Мужской
+    <input type="radio" name="Пол">Женский
+    <input type="radio" name="Пол">Не указан
+    <h1>О себе</h1>
+    <h2>Языки:</h2>
+    <input type="checkbox" >Русский
+    <input type="checkbox" >Англйский
+    <input type="checkbox" >Украинский
+    <input type="checkbox" >Китайский
+    <input type="checkbox" >Татарский
+    <h2>Любимый цвет:</h2>
+    <input type="color">
+    <h2>Любимое число:</h2>
+    <input type="number">
+    <h1>Контакты</h1>
+    Эл. почта:
+    <input type="email">
+    <br>Телефон:
+    <input type="tel">
+    </main>
+</body>
+</html>
