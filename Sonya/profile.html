@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета</title>
+    <style>
+        body{
+            padding-left: 20%;
+            padding-right: 20%;
+            background:url('fon.jpg');
+        }
+        h1{
+            color:yellow;
+        }
+        header{
+            background: url('Фон.jpg');
+            padding: 10px;
+            font-size: 5vw;
+            font-family: Arial;
+        }
+        nav{
+            color: magenta;
+            padding:10px;
+        }
+        nav a{
+            text-decoration: none;
+            color:gainsboro;
+            background:indigo;
+            padding: 20px;
+        }
+        nav a:hover{
+            background:navy;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>Анкета</header>
+    <nav>
+        <a href="index.html">Главная страница</a>
+    </nav>
+    <main>
+        <h1>Имя</h1>
+        <input type="text" placeholder="Введите имя">
+        <h1>Фамилия</h1>
+        <input type="text" placeholder="Введите Фамилию">
+        <h1>Дата рождения</h1>
+        <input type="date">
+        <h1>Пол</h1>
+        <input type="radio" name="Пол">ж
+        <input type="radio" name="Пол">м
+        <h1>О себе</h1>
+        <h2>Какими языками вы владеете</h2>
+        <input type="checkbox">Французский
+        <input type="checkbox">англиский
+        <input type="checkbox">инспанский
+        <h1>Ваш любимый цвет</h1>
+        <input type="color">
+        <h1>Ваша любимое число</h1>
+        <input type="number">
+        <h1>Ваши контакты</h1>
+        Электронная почта:
+        <input type="email">
+        <br>
+        Номер телефона:
+        <input type="tel">
+    </main>
+</body>
+</html>
