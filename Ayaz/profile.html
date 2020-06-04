@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета</title>
+    <style>
+        body{
+            color: rgb(69, 68, 70);
+            background:url('Фон.png');
+            padding-left: 20%;
+            padding-right: 20% ;
+        }
+        nav{
+            background:lightslategrey;
+            padding: 3%;
+        }
+        nav a{
+            text-decoration: none;
+            background: slategrey;
+            color:rgb(69, 68, 70);
+            padding:3%;
+    
+        }
+        header{
+            background:rgb(69, 68, 70);
+            color: lightslategray;
+            padding:10%;
+            font-size:6vw;
+            font-style:oblique;
+        }
+        main table{
+            color:black;
+        }
+        main{
+            background:slategrey;
+        }
+    </style>
+</head>
+<body>
+    <header>Анкета</header>
+    <nav>
+        <a href="index.html">Главная страница</a>
+    </nav>  
+    <main>
+        <h1>Имя</h1>
+        <input type="text"placeholder="Введите имя">
+         <h1>Фамилия</h1>
+         <input type="text"placeholder="Введите фамилию">
+         <h1>Дата рождения</h1>
+         <input type="date">
+         <h1>Пол</h1>
+         <input type="radio" name="Пол">ж
+         <input type="radio" name="Пол">м
+        <h1>О себе</h1>
+         <h2>Какими языками вы владеете</h2>
+         <input type="checkbox">англиский
+         <input type="checkbox">татарский
+         <input type="checkbox">оконго
+        <h2>Ваш любимый цвет</h2>
+        <input type="color">
+        <h2>Ваше любимое животное</h2>
+        <input type="text">
+        <h2>Ваше любимое число</h2>
+        <input type="number">
+        <h1>Ваши контакты</h1>
+        Электронная почта:
+        <input type="emeail">
+        <br>
+        Номер телефона:
+        <input type="tel">
+    </main>
+</body>
+</html>
