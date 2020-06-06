@@ -84,10 +84,26 @@
         }
     </style>
 </head>
-<body>
+<body id="body">
     <header>
         <h1>Синдеев Макар</h1>
     </header>
+    <script>
+        function change_BG(color){
+            document.getElementById("body").style.background=color;
+        }
+    </script>
+    <button id="black" onclick="change_BG('black')">Черный фон</button>
+    <button id="white" onclick="change_BG('white')">Белый фон</button>
+    <button id="red" onclick="change_BG('red')">Красный фон</button>
+    <button id="orange" onclick="change_BG('orange')">Оранжевый фон</button>
+    <button id="yellow" onclick="change_BG('yellow')">Желтый фон</button>
+    <button id="green" onclick="change_BG('green')">Зелёный фон</button>
+    <button id="cyan" onclick="change_BG('cyan')">Голубой фон</button>
+    <button id="darkblue" onclick="change_BG('darkblue')">Синий фон</button>
+    <button id="pink" onclick="change_BG('pink')">Розовый фон</button>
+    <button id="violet" onclick="change_BG('violet')">Фиолетовый фон</button>
+    <button id="brown" onclick="change_BG('brown')">Коричневый фон</button>
     <nav>
         <a href="Conacts.html">Контакты</a>
         <a href="profile.html">Анкета</a>
@@ -100,13 +116,13 @@
     <h1>Хобби</h1>
     <i>Программирование, танцы, кубики рубики</i>
     <h1>В каком классе вы учитесь</h1>
-    <i>4 класс </i>
+    <i>5 класс </i>
     <h1>Яыки программирования:</h1>
     <ul type="circle">
         <li>Scratch</li>
         <li>Python</li>
         <li>Java</li>
-        <li>S++</li>
+        <li>C++</li>
         <li>SmallBasic</li>
     </ul>
     <h1>Мои друзья</h1>
@@ -129,7 +145,7 @@
         также умело оперировать своим словарным запасом. В целом же, чем моложе птица, тем легче ее
          научить общаться.
     </i>
-    <iframe width="1212" height="682" src="https://www.youtube.com/embed/TZUoop52sq0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="1062" height="532" src="https://www.youtube.com/embed/TZUoop52sq0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <h1>Моя семья</h1>
     <table border=1px bordercolor=white>
         <tr>
@@ -145,7 +161,7 @@
         <tr>
             <td>Папа</td>
             <td>Николай</td>
-            <td>Скоро 39 лет</td>
+            <td>38 лет</td>
         </tr>
         <tr>
             <td>Сестрёнка</td>
@@ -202,5 +218,12 @@
             <img src="Хомяк.png" align="right">
         </section>
 </main>
+<script>
+    //alert("Добро пожаловать");
+    //confirm("Вы владелец сайта?");
+    let name;
+    name=prompt("Как вас зовут?");
+    alert('Добро пожаловать,' + name);
+</script>
 </body>
 </html>
